@@ -1,0 +1,32 @@
+/* Reset default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-bottom: 80px;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+img {
+    margin-right: 10%;
+}
+
+
+#singer {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#anime {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
