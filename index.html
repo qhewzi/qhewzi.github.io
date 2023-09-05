@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Qhew Zi</title>
+        
 
         <link href="styles.css" rel="stylesheet" type="text/css">
 
@@ -55,7 +56,29 @@
                         <div class="panel-heading"><b>About</b></div>
                         <div class="panel-body">
                             <div id="about">
-                                <img src="myself.jpg" height="300px">
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-right: 20px;">
+                                                        <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    </ol>
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="myself.jpeg">
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="milo.jpeg">
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="brad.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                                
                                 <h4> Name: Heng Qhew Zi </h4>
                                 <h4>Current Status: Struggling to survive in SMU. Hair getting lesser every semester here.</h4>
                             </div>
@@ -89,6 +112,10 @@
                 </div>
             </div>
         </div>
+
+        <!-- Bootstrap Javascript -->
+        <!-- It is here because, the web browser will load the div content first, then load this js library -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
